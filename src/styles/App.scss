@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  font-size: 2.6rem;
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  margin-top: 30px;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #2d5f4c;
+}
+
+.form {
+  margin: 15px auto;
+  &__label {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #2d5f4c;
+    margin-right: 10px;
+  }
+  &__input {
+    padding: 4px;
+    font-size: 1.5rem;
+    border: 1px solid #2d5f4c;
+    color: #2d5f4c;
+    width: 80px;
+  }
+}
+
+button {
+  margin: 8px;
+  padding: 8px;
+  background-color: #04aa6d;
+  border: 2px solid #04aa6d;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: gray;
+  border: 2px solid gray;
+  color: white;
+  cursor: not-allowed;
+}
+
+ol {
+  // list-style-position: inside;
+  // white-space: nowrap;
+  // margin: 3%;
+
+}
+li > div{
+
+  margin-left: 10px;
+  white-space: nowrap;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+li{
+
+  margin-left: 30px;
+}
